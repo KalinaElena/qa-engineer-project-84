@@ -1,7 +1,7 @@
 ---
 - summary: |
     Поиск товаров по ключевому слову
-  status: pass
+  status: fail
   
 - summary: |
     Поиск товаров по категории
