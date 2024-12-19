@@ -1,0 +1,12 @@
+---
+- summary: |
+    
+  environment: |
+    Google Chrome  Версия 131.0.6778.140
+    ОС Windows 10 Pro 22H2
+  steps-to-reproduce: |
+ 
+  expected-result: |
+  
+  actual-result: |
+    
