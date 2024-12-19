@@ -17,15 +17,15 @@
   
 - summary: |
     Фильтрация товаров по наличию
-   status: fale 
+   status: fail
       
 - summary: |
     Фильтрация товара по стоимости
-   status: fale
+   status: fail
  
 - summary: |
     Фильтрация товара по стоимости с невалидными введенными значениями
-   status: fale
+   status: fail
 
 - summary: |
     Перемещение по каталогу с помощью кнопок навигации
@@ -53,7 +53,7 @@
   
 - summary: |
     Смена языка
-     status: fale
+     status: fail
     
 - summary: |
     Открытие карточки товара 
