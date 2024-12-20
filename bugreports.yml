@@ -4,13 +4,13 @@
   environment: |
     Google Chrome  Версия 131.0.6778.140
     ОС Windows 10 Pro 22H2
- steps-to-reproduce: |
+  steps-to-reproduce: |
    1. Выбрать любые товары из каталога
    2. Добавить в корзину
    3. Нажать "оформить заказ" 
- expected-result: |
+  expected-result: |
     Заказ успешно оформлен
- actual-result: |
+  actual-result: |
     Появляется модальное окно "Заказ успешно формлен"
     Код статуса в Devtools: 500
 
@@ -54,7 +54,7 @@
 
 - summary: |
      Не работает кнопка X модального окна при успешном заказе
-   environment: |
+  environment: |
      Google Chrome  Версия 131.0.6778.140
      ОС Windows 10 Pro 22H2
   steps-to-reproduce: |
