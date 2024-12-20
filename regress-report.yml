@@ -61,10 +61,10 @@
 
 bugreports:
   - summary: |
- Не работает кнопка X модального окна при успешном заказе
+  Не работает кнопка X модального окна при успешном заказе
 environment: |
-    Google Chrome  Версия 131.0.6778.140
-    ОС Windows 10 Pro 22H2
+Google Chrome  Версия 131.0.6778.140
+ ОС Windows 10 Pro 22H2
  steps-to-reproduce: |
  1. Добавить люблой товар в корзину
  2. Перейти в корзину
@@ -76,9 +76,9 @@ environment: |
   Ничего не происходит
 
 - summary: |
- Ошибка при заказе товаров 
-  environment: |
-    Google Chrome  Версия 131.0.6778.140
+Ошибка при заказе товаров 
+   environment: |
+   Google Chrome  Версия 131.0.6778.140
     ОС Windows 10 Pro 22H2
  steps-to-reproduce: |
  1. Выбрать любые товары из каталога
@@ -91,7 +91,7 @@ environment: |
     Код статуса в Devtools: 500
 
 - summary: |
- Ошибка при заказе товаров 
+Ошибка при заказе товаров 
   environment: |
     Google Chrome  Версия 131.0.6778.140
     ОС Windows 10 Pro 22H2
