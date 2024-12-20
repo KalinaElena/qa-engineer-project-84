@@ -34,7 +34,7 @@ test-cases:
     
     - summary: |
         Добавление товара в корзину
-       status: pass
+      status: pass
     
     - summary: |
         Удаление товара из корзины
