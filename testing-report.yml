@@ -5,56 +5,56 @@
   
 - summary: |
     Поиск товаров по категории
-   status: pass
+  status: pass
    
 - summary: |
     Сброс в фильтрации категории
-   status: fail
+  status: fail
    
 - summary: |
     Фильтрация товара по бренду
-   status: pass
+  status: pass
   
 - summary: |
     Фильтрация товаров по наличию
-   status: fail
+  status: fail
       
 - summary: |
     Фильтрация товара по стоимости
-   status: fail
+  status: fail
  
 - summary: |
     Фильтрация товара по стоимости с невалидными введенными значениями
-   status: fail
+  status: fail
 
 - summary: |
     Перемещение по каталогу с помощью кнопок навигации
-    status: pass
+  status: pass
 
 - summary: |
     Добавление товара в корзину
-    status: pass
+  status: pass
 
 - summary: |
     Удаление товара из корзины
-     status: pass
+  status: pass
     
 - summary: |
     Оформление товара 
-     status: fail
+  status: fail
     
 - summary: |
     Чистка корзины с помощью кнопки "очистить корзину"
-     status: pass
+  status: pass
     
 - summary: |
     Переход из корзины в каталог товаров
-     status: pass
+  status: pass
   
 - summary: |
     Смена языка
-     status: fail
+  status: fail
     
 - summary: |
     Открытие карточки товара 
-     status: pass
+  status: pass
