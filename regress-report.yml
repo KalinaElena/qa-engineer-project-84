@@ -1,108 +1,107 @@
 ---
 test-cases:
-- summary: |
-    Поиск товаров по ключевому слову
-  status: pass
-  
-- summary: |
-    Поиск товаров по категории
-  status: pass
-   
-- summary: |
-    Сброс в фильтрации категории
-  status: pass
-   
-- summary: |
-    Фильтрация товара по бренду
-  status: fail
-  
-- summary: |
-    Фильтрация товаров по наличию
-  status: pass
+    - summary: |
+        Поиск товаров по ключевому слову
+      status: pass
       
-- summary: |
-    Фильтрация товара по стоимости
-  status: pass
- 
-- summary: |
-    Фильтрация товара по стоимости с невалидными введенными значениями
-  status: fail
-
-- summary: |
-    Перемещение по каталогу с помощью кнопок навигации
-  status: pass
-
-- summary: |
-    Добавление товара в корзину
-   status: pass
-
-- summary: |
-    Удаление товара из корзины
-  status: pass
+    - summary: |
+        Поиск товаров по категории
+      status: pass
+       
+    - summary: |
+        Сброс в фильтрации категории
+      status: pass
+       
+    - summary: |
+        Фильтрация товара по бренду
+      status: fail
+      
+    - summary: |
+        Фильтрация товаров по наличию
+      status: pass
+          
+    - summary: |
+        Фильтрация товара по стоимости
+      status: pass
+     
+    - summary: |
+        Фильтрация товара по стоимости с невалидными введенными значениями
+      status: fail
     
-- summary: |
-    Оформление товара 
-  status: fail
+    - summary: |
+        Перемещение по каталогу с помощью кнопок навигации
+      status: pass
     
-- summary: |
-    Чистка корзины с помощью кнопки "очистить корзину"
-  status: pass
+    - summary: |
+        Добавление товара в корзину
+       status: pass
     
-- summary: |
-    Переход из корзины в каталог товаров
-  status: pass
-  
-- summary: |
-    Смена языка
-  status: fail
+    - summary: |
+        Удаление товара из корзины
+      status: pass
+        
+    - summary: |
+        Оформление товара 
+      status: fail
+        
+    - summary: |
+        Чистка корзины с помощью кнопки "очистить корзину"
+      status: pass
+        
+    - summary: |
+        Переход из корзины в каталог товаров
+      status: pass
+      
+    - summary: |
+        Смена языка
+      status: fail
+        
+    - summary: |
+        Открытие карточки товара 
+      status: pass
     
-- summary: |
-    Открытие карточки товара 
-  status: pass
-
-bugreports:
-  - summary: |
-          Не работает кнопка X модального окна при успешном заказе
-    environment: |
-          Google Chrome  Версия 131.0.6778.140
-          ОС Windows 10 Pro 22H2
-    steps-to-reproduce: |
-         1. Добавить люблой товар в корзину
-         2. Перейти в корзину
-         3. Нажать checout/оформить заказ
-         4. Нажать кнопку X
-   expected-result: |
-          Модальное окно должно быть закрыто
-   actual-result: |
-          Ничего не происходит
-
-- summary: |
-        Ошибка при заказе товаров 
-   environment: |
-        Google Chrome  Версия 131.0.6778.140
-        ОС Windows 10 Pro 22H2
-   steps-to-reproduce: |
-         1. Выбрать любые товары из каталога
-         2. Добавить в корзину
-         3. Нажать оформить заказ 
-   expected-result: |
-         Заказ успешно оформлен
-   actual-result: |
-        Появляется модальное окно "Заказ успешно формлен"
-        Код статуса в Devtools: 500
-
-- summary: |
-        Ошибка при заказе товаров 
-  environment: |
-        Google Chrome  Версия 131.0.6778.140
-        ОС Windows 10 Pro 22H2
-  steps-to-reproduce: |
-         1. Выбрать любые товары из каталога
-         2. Добавить в корзину
-         3. Нажать оформить заказ"
-  expected-result: |
-         Заказ успешно оформлен
-   actual-result: |
-        Появляется модальное окно "Заказ успешно формлен"
-        Код статуса в Devtools: 500
-
+    bugreports:
+      - summary: |
+              Не работает кнопка X модального окна при успешном заказе
+        environment: |
+              Google Chrome  Версия 131.0.6778.140
+              ОС Windows 10 Pro 22H2
+        steps-to-reproduce: |
+             1. Добавить люблой товар в корзину
+             2. Перейти в корзину
+             3. Нажать "checout/оформить заказ"
+             4. Нажать кнопку X
+       expected-result: |
+              Модальное окно должно быть закрыто
+       actual-result: |
+              Ничего не происходит
+    
+    - summary: |
+            Ошибка при заказе товаров 
+       environment: |
+            Google Chrome  Версия 131.0.6778.140
+            ОС Windows 10 Pro 22H2
+       steps-to-reproduce: |
+             1. Выбрать любые товары из каталога
+             2. Добавить в корзину
+             3. Нажать "оформить заказ"
+       expected-result: |
+             Заказ успешно оформлен
+       actual-result: |
+            Появляется модальное окно "Заказ успешно формлен"
+            Код статуса в Devtools: 500
+    
+    - summary: |
+            Ошибка при заказе товаров 
+      environment: |
+            Google Chrome  Версия 131.0.6778.140
+            ОС Windows 10 Pro 22H2
+      steps-to-reproduce: |
+             1. Выбрать любые товары из каталога
+             2. Добавить в корзину
+             3. Нажать "оформить заказ"
+      expected-result: |
+             Заказ успешно оформлен
+       actual-result: |
+            Появляется модальное окно "Заказ успешно формлен"
+            Код статуса в Devtools: 500
