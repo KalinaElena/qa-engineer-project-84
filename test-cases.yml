@@ -69,7 +69,7 @@
     Фильтрация товара по стоимости
   requirement: |
     При выборе мин/макс цены должен отображаться товар со стоимостью в заданном диапазоне
-    prerequisites: |  
+  prerequisites: |  
         no date
   test-data: | 
       no date
@@ -83,7 +83,7 @@
     Фильтрация товара по стоимости с невалидными введенными значениями
   requirement: |
     При введении спец. символов, отрицательных значений появляется окно с предупреждением о некорректном вводе 
-    prerequisites: |  
+  prerequisites: |  
         no date
   test-data: |  
       no date
@@ -96,7 +96,7 @@
     Перемещение по каталогу с помощью кнопок навигации
   requirement: |
     При помощи кнопок навигации можно перемещаться по каталогу товаров 
-    prerequisites: |  
+  prerequisites: |  
         no date
   test-data: |  
        no date
@@ -110,7 +110,7 @@
     Добавление товара в корзину
   requirement: |
     Выбранный товар отображается в корзине 
-    prerequisites: |  
+  prerequisites: |  
         no date
   test-data: | 
       no date
