@@ -2,15 +2,15 @@
 test-cases:
 - summary: |
     Совместимость с бразуерами последней версии
-status: pass
+  status: pass
 
 - summary: |
     Совместимость с мобильными устройствами
-status: fail
+  status: fail
 
 - summary: |
     Проверка запросов
- status: fail
+  status: fail
  
 - summary: |
     Отображение товара в каталоге с характеристиками
