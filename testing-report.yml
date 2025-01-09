@@ -21,7 +21,7 @@
   
 - summary: |
     Поиск товаров по категории
-  status: fail
+  status: pass
    
 - summary: |
     Сброс в фильтрации категории
@@ -29,7 +29,7 @@
    
 - summary: |
     Фильтрация товара по бренду
-  status: fail
+  status: pass
   
 - summary: |
     Фильтрация товаров по наличию
@@ -93,7 +93,7 @@
 
 - summary: |
     Смена языка на английский
-  status: fail
+  status: pass
   
 - summary: |
     Смена языка на русский
